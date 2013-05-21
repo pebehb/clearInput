@@ -99,7 +99,6 @@
 		return this.each(function(){
 			if (this.tagName == 'INPUT' && (this.type == 'text' || this.type == 'password'))
 			{
-			console.log(this.tagName, this.type);
 				(new $.clearInput(this, options));
 			}
 		});
